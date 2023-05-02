@@ -11,7 +11,7 @@ const ReCaptcha = () => {
       <div>is blocked iframe content: {String(isBlocked)}</div>
       <ReCAPTCHA
         ref={recaptchaRef}
-        sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!}
+        sitekey={"6LcWTtMlAAAAALLhhFgTWesWEAOa-yHwC8-KUywZ"}
         onChange={() => { }}
         asyncScriptOnLoad={() => {
           setTimeout(() => {
